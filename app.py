@@ -3,7 +3,7 @@ import requests
 
 st.set_page_config(page_title="AI Travel Planner", layout="wide")
 
-backend_url = "http://localhost:8000"
+backend_url = st.secrets["backend_url"]
 
 page_bg = """
 <style>
